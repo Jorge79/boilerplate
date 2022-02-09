@@ -6,7 +6,7 @@ export default {
   component: Main,
   args: {
     title: 'title example',
-    deion: 'deion example'
+    description: 'description example'
   }
 } as Meta
 
@@ -15,5 +15,5 @@ export const Default: Story = (args) => <Main {...args} />
 export const Basic: Story = (args) => <Main {...args} />
 Basic.args = {
   title: '123',
-  deion: '456'
+  description: '456'
 }
