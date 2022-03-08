@@ -9,6 +9,7 @@
     "test:watch": "yarn test --watch",
     "lint": "eslint src --max-warnings=0",
     "prepare": "husky install",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -52,6 +53,7 @@
     "jest": "^27.4.7",
     "jest-styled-components": "^7.0.8",
     "lint-staged": "^12.3.2",
+    "plop": "^3.0.5",
     "prettier": "2.5.1",
     "typescript": "^4.5.5",
     "webpack": "^5.68.0"
